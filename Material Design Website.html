@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Material Design Website</title>
+
+
+ <head>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <!-- /////////////////// jquery cdn link //////////////////// -->
+    <!-- ///////////////////....this always present after (Compiled and minified CSS)........otherwise it will not work......////////////// -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+      <!-- //////////////font awesome icon /////////// -->
+     <script src="https://use.fontawesome.com/7528182cb9.js"></script>
+  
+	<style>
+		*
+		{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		::selection
+		{
+			background-color: orange;
+			color: white;
+		}
+
+
+	</style>	
+		
+</head>
+<body >
+	
+ <nav class="orange darken-3">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo"><i class="large material-icons white-text">account_circle</i> SOUGATA SIKDAR</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+
+      <ul class="right hide-on-med-and-down">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutus">About Us </a></li>
+        <li><a href="collapsible.html">Contact Us</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+       <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+      </ul>
+  
+  
+        
+         </div>
+     </nav>
+  
+<!-- ///////// bottom for mobile /////////// -->
+  <ul class="sidenav orange darken-3" id="mobile-demo">
+    <li><a class="white-text" href="#">Home</a></li>
+        <li><a class="white-text" href="#aboutus">About Us <i class=" material-icons white-text">arrow_downward</i></a></li>
+        <li><a class="white-text" href="collapsible.html">Contact Us <i class=" material-icons white-text">phone_iphone</i></a></li>
+        <li><a class="white-text" href="#signup">Sign Up <i class=" material-icons white-text">account_box</i></a></li>
+        <li> <li><a class="white-text" href="#">Search <i class="material-icons white-text">search</i></a></li></li>
+      </ul>
+
+<hr>
+
+
+
+
+        <!-- ///////carousel Start ///////////////////////   -->
+
+<div class="carousel carousel-slider">
+<a class="carousel-item" href="#one!"> <img src="https://lorempixel.com/800/400/food/3" class="responsive-img">
+	<div class="carousel-fixed-item  center">
+		<h2 class="white-text">Heading of Carousel 1</h2>
+		<p class="white-text">...Hello World...</p>
+	</div>
+</a>
+
+
+<a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/4" class="responsive-img">
+	<div class="carousel-fixed-item  center">
+		<h2 class="white-text">Heading of Carousel 2</h2>
+		<p class="white-text">...Hello World...</p>
+	</div>
+</a>
+
+
+<a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/1" class="responsive-img">
+	<div class="carousel-fixed-item  center">
+		<h2 class="white-text">Heading of Carousel 3</h2>
+		<p class="white-text">...Hello World...</p>
+	</div>
+</a>
+
+
+<a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/2" class="responsive-img">
+	<div class="carousel-fixed-item  center">
+		<h2 class="white-text">Heading of Carousel 4</h2>
+		<p class="white-text">...Hello World...</p>
+	</div>
+</a>
+
+</div>
+ <!-- ///////carousel end /////////////////////// -->
+
+
+
+ <!-- /////////////floating bottom/////////////// -->
+
+<div class="fixed-action-btn">
+	<a class="btn-floating btn-large cyan pulse red">
+		<i class="large material-icons">mode_edit</i>
+	</a>
+	<ul>
+		<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+		<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+		<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+		<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+	</ul>
+</div>
+
+ <!-- /////////////floating bottom end/////////////// -->
+
+
+
+
+<br>
+<hr class="container">
+
+
+<!-- ////////About us start ////////////// -->
+
+<div id="aboutus" class="row container">
+	<div class="col s12 12"><h2 class="center">About Us <i class="medium material-icons orange-text darken-3">mood</i></h2></div>
+</div>
+
+<div class="row">
+	<div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+</div>
+
+<div class="row container">
+	<br>
+	<div class="col s12 m6 l6"> <img src="all_pics/cam6.jpg" class="responsive-img z-depth-4 materialboxed"></div>
+	<div class="col s12 m6 l6 py-5">
+		<h4 >Who am I ?</h4>
+		<p>We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any
+		amount would help support and continue development on this project and is greatly appreciated.</p>
+		<br>
+		<hr>
+		<br>
+		<a class="waves-effect waves-light btn orange darken-3"><i class="material-icons right">cloud</i>Know More</a>
+	</div>
+</div>
+
+    <!-- ////////About us end ////////////// -->
+
+
+   
+
+
+
+<!-- ////////////// More images start //////////////////// -->
+
+
+<div class="row container">
+	<div class="col s12 12"><h3 class="center">Some Images Of Photography</h3></div>
+</div>
+
+<div class="row">
+	<div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+</div>
+
+<div class="row container">
+	<div class="col s4 m3 l3 py-5">
+		<h5 >Photography</h5>
+		<p>We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+		<br>
+		<hr>
+		<br>
+		<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Know More</a>
+	</div>
+	<div class="col s8 m9 l9 py-5">
+		<div class="carousel">
+			<a class="carousel-item" href="#one!" > <img src="all_pics/cam6.jpg" class="responsive-img"></a>
+			<a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+			<a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+			<a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+			<a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+		</div>
+	</div>
+</div>
+
+<!-- //////////////More images end //////////////////// -->
+
+
+
+
+
+<!-- ....................................................... -->
+
+  <div class="row container">
+      <div class="col s12 12"><h3 class="center">Photography Cards <i class="medium material-icons orange-text darken-3">card_travel</i></h3></div>
+    </div>
+      <div class="row">
+      <div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+      </div>
+
+
+
+
+<!-- ////////////////////card 1 start ///////////////////////// -->
+
+
+<!-- ////////////////1st card////// -->
+<div class="row container">
+	<div class="col s12 m4 12">
+		<div class="card responsive-img z-depth-4">
+			<div class="card-image">
+				<img src="all_pics/clock1.jpg">
+				<span class="card-title">Card Title</span>
+				<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+			</div>
+			<div class="card-content">
+				<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+			</div>
+		</div>
+	</div>
+
+    <!-- ///////////////// 2nd card /////////// -->
+
+    <div class="col s12 m4 12">
+      <div class="card hoverable">
+        <div class="card-image">
+          <img src="all_pics/Bag1.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ///////////////////// 3rd card ////////////////// -->
+    <div class="col s12 m4 12">
+      <div class="card responsive-img z-depth-4">
+        <div class="card-image">
+          <img src="all_pics/fashion.jpg">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- /////////////////// card 1 end /////////////////////// -->
+
+
+
+<!-- ....................................................... -->
+
+<div class="row container">
+	<div class="col s12 12"><h4 class="center">Photography Card 2 <i class="medium material-icons orange-text darken-3">card_travel</i></h4></div>
+</div>
+<div class="row">
+	<div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+</div>
+
+
+<!-- ////////////////////card 2 start ///////////////////////// -->
+
+<!-- ///////// 1st card ////// -->
+
+<div class="row container">
+
+
+    <div class="col s12 m4 12">
+   <div class="card hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator"  src="all_pics/fashion.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+
+</div>
+
+    <!-- ///////////////// 2nd card /////////// -->
+
+     <div class="col s12 m4 12">
+    <div class="card  responsive-img z-depth-4">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="all_pics/bag2.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+
+    <!-- ///////////////////// 3rd card ////////////////// -->
+     <div class="col s12 m4 12">
+   <div class="card hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="all_pics/apple.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Apple mac book pro<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Apple mac book pro<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <br>
+                                <i class="fa fa-star orange-text" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-text" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-text" aria-hidden="true"></i>
+                                <i class="fa fa-star orange-text" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o orange-text" aria-hidden="true"></i>
+                                <br>
+                                
+                                <p class="">$900</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <!-- /////////////////// card 2 end /////////////////////// -->
+
+
+<!-- ....................................................... -->
+
+  <div class="row container">
+      <div class="col s12 12"><h4 class="center"><i class="medium material-icons orange-text darken-3">photo_library</i> Photography Gallery</h4></div>
+    </div>
+      <div class="row">
+      <div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+      </div>
+
+
+
+
+<!-- ////////////////////photo gellary start ///////////////////////// -->
+
+<div class="row container">
+	<div class="col s12 m4 12">
+		<img class="materialboxed responsive-img z-depth-4" data-caption="A picture of a way with a group of trees in a park :)"  src="all_pics/fashion.jpg">
+	</div>
+	
+	<div class="col s12 m4 12">
+		<img class="materialboxed responsive-img z-depth-4" data-caption="A picture of Sony a6300 :)"  src="all_pics/cam6.jpg">
+	</div>
+	<div class="col s12 m4 12">
+		<img class="materialboxed responsive-img z-depth-4" data-caption="A picture of a apple mac book pro :)"  src="all_pics/apple1.jpg">
+	</div>
+	
+</div>
+
+  <!-- /////////////////// photo gallery end /////////////////////// -->
+
+
+<hr class="container">
+
+<!-- ....................................................... -->
+
+      <div class="row container">
+      <div class="col s12  12 "><h3 class="center orange-text darken-3 ">Sign Up Form <i class="medium material-icons orange-text darken-3">account_circle</i></h3></div>
+    </div>
+      <div class="row">
+      <div class="col s12 m4 l4 offset-8 offset-m4 offset-l4"><hr></div>
+      </div>
+
+
+<!-- /////////////////////sign up//////////////////////////// -->
+
+<div  class="row container">
+	<form id="signup" class="col s12">
+		<div class="row">
+			<div class="input-field col s6">
+				<input  id="first_name" type="text" class="validate">
+				<label for="first_name">First Name <i class=" material-icons">account_box</i></label>
+			</div>
+			<div class="input-field col s6">
+				<input id="last_name" type="text" class="validate">
+				<label for="last_name">Last Name <i class=" material-icons">account_box</i></label>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="input-field col s12">
+				<input disabled value="I am not editable" id="disabled" type="text" class="validate">
+				<label for="disabled">Disabled</label>
+			</div>
+		</div> -->
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="password" type="password" class="validate">
+				<label for="password">Password <i class=" material-icons">lock</i></label>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="email" type="email" class="validate">
+				<label for="email">Email <i class=" material-icons">email</i></label>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<textarea id="textarea2" class="materialize-textarea" data-length="10"></textarea>
+				<label for="textarea2">Mobile Number <i class=" material-icons">phone_iphone</i></label>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col s12">
+				This is an inline input field:
+				<div class="input-field inline">
+					<input id="email_inline" type="email" class="validate">
+					<label for="email_inline">Email <i class=" material-icons">email</i></label>
+					<span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<i class="material-icons prefix">textsms</i>
+				<input type="text" id="autocomplete-input" class="autocomplete">
+				<label for="autocomplete-input">Choose Your Country <i class=" material-icons">location_on</i></label>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<input type="text" class="datepicker" placeholder="Your D.O.B">
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<p>
+					<label>
+						<input class="with-gap" name="group1" type="radio" checked />
+						<span>Male</span>
+						<input name="group1" type="radio" checked />
+						<span>Female</span>
+					</label>
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="input-field col s12">
+				<form action="#">
+					<div class="file-field input-field">
+						<div class="btn">
+							<span>File <i class=" material-icons">file_upload</i></span>
+							<input type="file" multiple>
+						</div>
+						<div class="file-path-wrapper">
+							<input class="file-path validate" type="text" placeholder="Upload one or more files ">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="input-field col s12">
+				<form action="#">
+					<span class="range-field"><label>How much you like my page (range 0-100) <i class=" material-icons">mood</i></label>
+					<input type="range" id="test5" min="0" max="100"  />
+				</span>
+			</form>
+		</div>
+	</div>
+	
+	<br>
+
+
+	<div class="row">
+		<div class="input-field col s12">
+			<textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+			<label for="textarea2">Comment <i class=" material-icons">feedback</i></label>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="input-field col s12">
+			<p>
+				<label>
+					<input type="checkbox" class="filled-in"  />
+					<span>agree</span>
+				</label>
+			</p>
+		</div>
+	</div>
+	<br>
+	
+	<button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
+	<i class="material-icons right">send</i>
+	</button>
+</form>
+</div>
+
+<!-- /////////////////////sign up end //////////////////////////// -->
+
+
+<!-- ///////////////////////////////// -->
+<!-- /////////////////footer start///////////////////// -->
+
+ <footer class="page-footer orange darken-3">
+          <div class="container">
+            <div class="row">
+                <div class="col l9 s12">
+
+              	        <div class="row">
+                             <div class="col l6 s9">
+               
+                                <ul class="white-text">
+                                     <h4>Follow us now</h4>
+                                     <li><i class="fa fa-facebook-official " aria-hidden="true"></i> facebook</li>
+                                     <li><i class="fa fa-youtube-play  " aria-hidden="true"></i> youtube</li>
+                                     <li><i class="fa fa-linkedin " aria-hidden="true"></i> linkedin</li>
+                                     <li><i class="fa fa-twitter " aria-hidden="true"></i> twitter</li>
+
+                                </ul>
+      
+                               </div>
+
+
+                               <div class="col l6 s9">
+     
+                                    <ul class="white-text">
+                                    <h4>Useful Links</h4>
+                                    <li>privacy</li>
+                                    <li>terms of use</li>
+                                    <li>return policy</li>
+                                     <li>discount coupons</li>
+
+                                    </ul>
+      
+                               </div>
+                       </div>
+
+
+                </div>
+              <div class="col l3  s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Text <i class="fa fa-heart black-text" aria-hidden="true"></i> by sougata sikdar
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+<!-- /////////////////footer end///////////////////// -->
+
+
+
+<script>
+ 
+       $(document).ready(function()
+       {
+                      $('.sidenav').sidenav();
+
+                      $('.carousel.carousel-slider').carousel
+                      ({
+                        
+                            fullWidth: true,
+                            indicators: true,
+                        });
+
+
+                       $('.carousel').carousel();
+
+                       $('.fixed-action-btn').floatingActionButton();
+
+                       $('.materialboxed').materialbox();
+
+
+                       $('input.autocomplete').autocomplete({
+                          data: {
+                                  "India": null,
+                                "China": null,
+                             "Brazil": 'https://placehold.it/250x250'
+                                                               },
+                                                     });
+
+                        $('.datepicker').datepicker();
+
+                         $('input#input_text, textarea#textarea2').characterCounter();
+ 
+        });
+
+
+
+</script>
+      
+</body>
+</html>
